@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Watson - Hyperbolic Tree</title>
+		<link rel="stylesheet" type="text/css" href="/client/watsonstyle.css"/>
+		<meta charset="UTF-8">
+		<meta name="description" content="Hyperbolic tree generator. Presentation based on the IBIS model (Issue Based Information System) to represent the discussion stream of a forum">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Enzo Borel">
+		<script type="text/javascript" src="/client/script/treemodel.js"></script>
+		<script type="text/javascript" src="/client/script/draw.js"></script>
+		<script type="text/javascript" src="/client/script/client.js"></script>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+	</head>
+	<body onload="onload()">
+		<div id="maindiv">
+			<svg id="svgarea" xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<clipPath id="cut-box">
+ 					<rect x="0" y="0" width="100%" height="100%" />
+	 			</clipPath>
+				<g id="groupcircle"></g>
+			</svg>
+			<div id="pubarea">
+			</div>
+			<div id="formdiv">
+				<form action="/watson/display" method="post" id="formpub">
+					<fieldset>			
+						<legend>Add a publication</legend>
+						<textarea name="contentPub" placeholder="Please enter your question" id="contentpub_input" rows="10" cols="50"></textarea>
+						<br>
+						<input type="submit" value="Send" id="btnsubmit">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

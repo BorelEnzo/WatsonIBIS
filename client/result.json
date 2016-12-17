@@ -1,0 +1,174 @@
+{"tree":
+	{"root" : 
+		{"name" : "WATSON",
+		"questions":[
+			{
+			"pubId":"1",
+			"title" : "questionA",
+			"content":"Is it the question A ?",
+			"authorId":"1",
+			"category":"1",
+			"parent":"-1",
+			"answers" : [
+				{
+				"pubId":"2",
+				"content" : "aa",
+				"authorId":"1",
+				"arguments" : [
+					{
+					"pubId":"3",
+					"content" :"aaa",
+					"authorId": "2",
+					"agree":"0"
+					},
+					{
+					"pubId":"4",
+					"content" :"aab",
+					"authorId": "3",
+					"agree":"1"
+					}
+				]},
+				{
+				"pubId":"5",
+				"content" : "ab",
+				"authorId":"4",
+				"arguments" : []}
+			]},
+			{
+			"pubId":"6",
+			"title" : "questionB",
+			"content":"Is it the question B ?",
+			"authorId":"5",
+			"category":"2",
+			"parent":"-1",
+			"answers" : [
+				{
+				"pubId":"7",
+				"content" : "ba",
+				"authorId":"6",
+				"arguments" : [
+					{
+					"pubId":"8",
+					"content" :"baa",
+					"authorId": "7",
+					"agree":"1"
+					},
+					{
+					"pubId":"9",
+					"content" :"bab",
+					"authorId": "8",
+					"agree":"1"
+					},
+					{
+					"pubId":"10",
+					"content" :"bac",
+					"authorId": "9",
+					"agree":"0"
+					}
+				]},
+				{
+				"pubId":"11",
+				"content" : "bb",
+				"authorId":"5",
+				"arguments" : [
+					{
+					"pubId":"12",
+					"content" :"bba",
+					"authorId": "4",
+					"agree":"0"
+					}
+				]},
+				{
+				"pubId":"13",
+				"content" : "bc",
+				"authorId":"3",
+				"arguments" : [
+					{
+					"pubId":"14",
+					"content" :"bca",
+					"authorId": "2",
+					"agree":"1"
+					},
+					{
+					"pubId":"15",
+					"content" :"bcb",
+					"authorId": "1",
+					"agree":"0"
+					}
+				]}
+			]},
+			{
+			"pubId":"16",
+			"title" : "questionC",
+			"content":"Is it the question C ?",
+			"authorId":"9",
+			"category":"3",
+			"parent":"-1",
+			"answers" : [
+				{
+				"pubId":"17",
+				"content" : "ca",
+				"authorId":"8",
+				"arguments" : [
+					{
+					"pubId":"18",
+					"content" :"caa",
+					"authorId": "7",
+					"agree":"0"
+					},
+					{
+					"pubId":"19",
+					"content" :"cab",
+					"authorId": "6",
+					"agree":"1"
+					},
+					{
+					"pubId":"20",
+					"content" :"cac",
+					"authorId": "5",
+					"agree":"1"
+					}
+				]},
+				{
+				"pubId":"21",
+				"content" : "cb",
+				"authorId":"4",
+				"arguments" : []},
+				{
+				"pubId":"22",
+				"content" : "cc",
+				"authorId":"3",
+				"arguments" : [
+					{
+					"pubId":"23",
+					"content" :"cca",
+					"authorId": "2",
+					"agree":"0"
+					},
+					{
+					"pubId":"24",
+					"content" :"ccb",
+					"authorId": "1",
+					"agree":"1"
+					}
+				]}
+			]}
+		]},
+		"users":[
+			{"id" : "1", "name" : "John", "picture":"/client/img/picture1.png"},
+			{"id" : "2", "name" : "Emma", "picture":"/client/img/picture2.png"},
+			{"id" : "3", "name" : "Megan", "picture":"/client/img/picture1.png"},
+			{"id" : "4", "name" : "Dwayne", "picture":"/client/img/picture2.png"},
+			{"id" : "5", "name" : "David", "picture":"/client/img/picture2.png"},
+			{"id" : "6", "name" : "Tom", "picture":"/client/img/picture1.png"},
+			{"id" : "7", "name" : "Margot", "picture":"/client/img/picture2.png"},
+			{"id" : "8", "name" : "Anne", "picture":"/client/img/picture2.png"},
+			{"id" : "9", "name" : "Edvald", "picture":"/client/img/picture1.png"}
+		],
+		"categories":[
+			{"id": "1", "name" : "Category1"},
+			{"id": "2", "name" : "Category2"},
+			{"id": "3", "name" : "Category3"}
+		]
+	}
+}

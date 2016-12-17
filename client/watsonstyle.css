@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+html, body {
+   height: 100%;
+   width:100%;
+}
+
+body {
+  margin-left:auto;
+  margin-right:auto;
+  background: #cef7f4;
+}
+
+#maindiv{
+	display:inline-block;
+	left:8px;
+	right : 8px;
+	position:relative;
+	width:99%;
+	height:90%;
+}
+
+#radio0, #radi01{
+	display:inline-block;
+}
+
+#formdiv{
+	width:50%;
+	height:40%;
+	margin: 0px -1px 0px -1px;
+	display:inline-block;
+}
+
+form{
+	height:100%;
+}
+
+fieldset{
+	height:100%;
+    border-width:3px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#title_input, #contentpub_input, #btnsubmit{
+	margin : 5px;
+	width:95%;
+}
+
+fieldset > select{
+	margin : 5px;
+}
+
+#contentpub_input{
+	height:50%;
+}
+
+#pubarea{
+	height: 60%;
+	width : 50%;
+	border-width : 1px;
+	border-style : solid;
+	border-color: #000000;
+	background : grey;
+	overflow-y: auto;
+	display:inline-block;
+	box-sizing: border-box;
+	margin: 0px -1px 0px -1px;
+}
+
+#svgarea{
+	width:50%;
+	height:60%;
+	display:inline-block;
+	box-sizing: border-box;
+	margin: 0px -1px 0px -1px;
+	border: solid 1px black;
+    background-color: #222;
+    overflow:visible; 
+}
+
+.imgAvatar{
+	width:32px;
+	height:32px;
+	vertical-align: middle;
+}
+
+.divpublication0, .divpublication1{
+	position: relative;
+	padding : 15px;
+	word-wrap: break-word;
+	display:block;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+}
+
+.divpublication1{
+	background:#585858;
+}
+
+.pubAuthorTitle{
+	font-weight:bold;
+}
+
+.tooltip {
+    pointer-events:none;
+    opacity:0;
+    transition: opacity 0.3s;
+    border:solid gray;
+    position: absolute;
+    max-width: 8em;
+    text-align:center;
+}
+
+g.tooltip:not(.css) {
+	fill:currentColor;
+}
+
+g.tooltip rect {
+    fill: #888a85;
+    stroke: gray;
+}
+
+circle:hover + g.tooltip.css {
+	opacity:1;
+}
